@@ -128,9 +128,14 @@ if (navigator.geolocation)
         inputDistance.focus();
       });
     },
+
+
+
     function () {
       alert('Unable to fetch your location');
     }
+
+    
   );
 
 form.addEventListener('submit', function (e) {
